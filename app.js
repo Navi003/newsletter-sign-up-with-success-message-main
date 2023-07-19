@@ -35,4 +35,6 @@ dismissBtn.addEventListener("click", function () {
   successContainer.classList.add("hidden");
   containerEl.classList.remove("hidden");
   emailEl.value = "";
+  emailErr.classList.add("hidden");
+  emailEl.classList.remove("error-style");
 });
