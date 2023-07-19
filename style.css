@@ -35,6 +35,10 @@ body {
   font-family: "Roboto";
   background-color: var(--light-slate);
   color: var(--dark-slate);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 img,
 svg,
@@ -60,7 +64,7 @@ h1 {
   grid-template-columns: 1.1fr 1fr;
 
   width: 700px;
-  margin: 5rem auto;
+  /* margin: 5rem auto; */
   background-color: var(--light-grey);
   gap: 1rem;
   padding: 1rem;
